@@ -136,29 +136,23 @@
 ## Что необходимо для сдачи задания?
 
 >1. Репозиторий с конфигурационными файлами Terraform и готовность >продемонстрировать создание всех ресурсов с нуля.
-
-
-
 >2. Пример pull request с комментариями созданными atlantis'ом или снимки >экрана из Terraform Cloud.
 
+[Terraform repository](https://github.com/alex-k-7/diplom-terraform.git)
 
 
 >3. Репозиторий с конфигурацией ansible, если был выбран способ создания >Kubernetes кластера при помощи ansible.
 
+[Kubespray repository](https://github.com/alex-k-7/diplom-kubespray/tree/main/inventory/diplom)
 
-
->4. Репозиторий с Dockerfile тестового приложения и ссылка на собранный docker >image.
-
-
-
+>4. Репозиторий с Dockerfile тестового приложения и ссылка на собранный docker image.
 >5. Репозиторий с конфигурацией Kubernetes кластера.
 
-
+[Gitlab CI/CD](https://gitlab.com/alex-k7/diplom-simple-app.git)
 
 >6. Ссылка на тестовое приложение и веб интерфейс Grafana с данными доступа.
 
+[TEST_APP](http://51.250.27.127/)
 
-
->7. Все репозитории рекомендуется хранить на одном ресурсе (github, gitlab)
 
 ---
