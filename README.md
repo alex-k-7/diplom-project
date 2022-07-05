@@ -1,3 +1,28 @@
+## Что необходимо для сдачи задания?
+
+>1. Репозиторий с конфигурационными файлами Terraform и готовность >продемонстрировать создание всех ресурсов с нуля.
+>2. Пример pull request с комментариями созданными atlantis'ом или снимки >экрана из Terraform Cloud.
+
+[Terraform repository](https://github.com/alex-k-7/diplom-terraform)
+
+
+>3. Репозиторий с конфигурацией ansible, если был выбран способ создания >Kubernetes кластера при помощи ansible.
+
+[Kubespray repository](https://github.com/alex-k-7/diplom-kubespray/tree/main/inventory/diplom)
+
+>4. Репозиторий с Dockerfile тестового приложения и ссылка на собранный docker image.
+>5. Репозиторий с конфигурацией Kubernetes кластера.
+
+[Gitlab CI/CD](https://gitlab.com/alex-k7/diplom-simple-app)
+
+>6. Ссылка на тестовое приложение и веб интерфейс Grafana с данными доступа.
+
+[TEST_APP](http://51.250.27.127/)
+
+[Kube-Prometheus repository](https://github.com/alex-k-7/diplom-monitoring)
+
+---
+
 >## Дипломный практикум в Yandex.Cloud
 >  * [Цели:](#цели)
 >  * [Этапы выполнения:](#этапы-выполнения)
@@ -130,31 +155,3 @@
 >1. Интерфейс ci/cd сервиса доступен по http.
 >2. При любом коммите в репозиторие с тестовым приложением происходит сборка и >отправка в регистр Docker образа.
 >3. При создании тега (например, v1.0.0) происходит сборка и отправка с >соответствующим label в регистр, а также деплой соответствующего Docker образа >в кластер Kubernetes.
----
-
-
-## Что необходимо для сдачи задания?
-
->1. Репозиторий с конфигурационными файлами Terraform и готовность >продемонстрировать создание всех ресурсов с нуля.
->2. Пример pull request с комментариями созданными atlantis'ом или снимки >экрана из Terraform Cloud.
-
-[Terraform repository](https://github.com/alex-k-7/diplom-terraform)
-
-
->3. Репозиторий с конфигурацией ansible, если был выбран способ создания >Kubernetes кластера при помощи ansible.
-
-[Kubespray repository](https://github.com/alex-k-7/diplom-kubespray/tree/main/inventory/diplom)
-
->4. Репозиторий с Dockerfile тестового приложения и ссылка на собранный docker image.
->5. Репозиторий с конфигурацией Kubernetes кластера.
-
-[Gitlab CI/CD](https://gitlab.com/alex-k7/diplom-simple-app)
-
->6. Ссылка на тестовое приложение и веб интерфейс Grafana с данными доступа.
-
-[TEST_APP](http://51.250.27.127/)
-
-[Kube-Prometheus repository](https://github.com/alex-k-7/diplom-monitoring)
-
-
----
