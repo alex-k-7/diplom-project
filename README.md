@@ -12,16 +12,14 @@
 
 >4. Репозиторий с Dockerfile тестового приложения и ссылка на собранный docker image.
 >5. Репозиторий с конфигурацией Kubernetes кластера.
-
-[Gitlab CI/CD](https://gitlab.com/alex-k7/diplom-simple-app)
-
 >6. Ссылка на тестовое приложение и веб интерфейс Grafana с данными доступа.
 
-[TEST_APP](http://51.250.27.127/)
+[Gitlab CI/CD](https://gitlab.com/alex-k7/diplom-simple-app)
 
 [Kube-Prometheus repository](https://github.com/alex-k-7/diplom-monitoring)
 
 ---
+
 
 >## Дипломный практикум в Yandex.Cloud
 >  * [Цели:](#цели)
